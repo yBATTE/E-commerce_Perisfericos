@@ -1,0 +1,12 @@
+.__alinear{
+    display: flex;
+    justify-content: space-between;
+}
+.__logo{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.__search{
+    margin: 1rem;
+}
