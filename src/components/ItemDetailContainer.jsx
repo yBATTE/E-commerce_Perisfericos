@@ -21,7 +21,7 @@ return(
         {
             products.map((prod) => {
                 return(
-                    <ItemDetail key={prod.id} nombre ={prod.nombre} valor={prod.valor} />
+                    <ItemDetail key={prod.id} nombre ={prod.nombre} valor={prod.valor} stock={prod.stock} />
                 )
             })
         }
