@@ -1,0 +1,71 @@
+    /* 
+
+    import { useState } from "react";
+
+    export const App = () => {
+    
+    const [counter, setcounter] = useState(0);
+
+    const suma = () =>{
+        setcounter(counter + 1)}
+    const reset = () =>{
+        setcounter (0)}
+        const resta = () =>{
+            if(counter <= 0){
+                setcounter (0)
+            }else
+            setcounter (counter - 1)
+        }
+    
+
+return (
+    <>
+    <div><NavBar /> </div>
+    <div><ItemListContainer /></div>
+    <h1>{counter}</h1>
+    <button onClick = {suma}>Sumar</button>
+    <button onClick = {reset}>Reset</button>
+    <button onClick = {resta}>Resta</button>
+
+    </>
+)
+}
+*/
+
+
+
+
+
+import React from 'react'
+import {
+    Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
+    Button,
+} from '@chakra-ui/react'
+import { ChevronDownIcon } from '@chakra-ui/icons'
+import '../css/itemlist.css'
+
+
+export const ItemListContainer = () => {
+    return (
+    <div class= "__menu"><Menu>
+    <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
+    Categorias
+    </MenuButton>
+    <MenuList>
+    <MenuItem>MotherBoard</MenuItem>
+    <MenuItem>Cpu</MenuItem>
+    <MenuItem>Tarjetas de Video</MenuItem>
+    <MenuItem>Almacenamiento</MenuItem>
+    <MenuItem>Memoria Ram</MenuItem>
+    <MenuItem>Gabinetes</MenuItem>
+    <MenuItem>Perisfericos</MenuItem>
+    <MenuItem>Fuentes De Poder</MenuItem>
+    </MenuList>
+</Menu></div>
+    )
+}
+
+export default ItemListContainer
