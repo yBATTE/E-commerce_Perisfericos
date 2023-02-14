@@ -3,8 +3,6 @@ import '../css/navbar.css'
 import '../components/CartWidget'
 import CartWidget from '../components/CartWidget'
 import { Input } from '@chakra-ui/react'
-import carrito from '../assets/833314.png'
-
 export const NavBar = () =>{
     return( 
 <div className='__alinear'>
