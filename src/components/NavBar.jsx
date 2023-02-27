@@ -2,33 +2,45 @@ import React from 'react'
 import '../css/navbar.css'
 import '../components/CartWidget'
 import CartWidget from '../components/CartWidget'
-import { Input,Menu,MenuButton,MenuList,MenuItem,Button, } from '@chakra-ui/react'
-import { ChevronDownIcon } from '@chakra-ui/icons'
 import '../css/itemlist.css'
+import { Link } from 'react-router-dom'
 export const NavBar = () =>{
     return( 
         <>
-<div className='__alinear'>
-            <div className='__search'><Input htmlSize={25} width='auto'  placeholder='Search'
-    _placeholder={{ opacity: 1, color: 'black' }}/></div>
-            <div className='__logo'>Tienda de Computadoras</div>
-            <div><CartWidget/></div>
+<div className='__background__color'>
+        <div className='__alinear'>
+            <Link to ={'/'} className='__logo'>Tienda de Computadoras</Link>
+            <Link to={'/cart'}>
+                            <CartWidget></CartWidget>
+                        </Link>
+        </div>
+        <div className='__category'>
+            <Link to={ `categoria/$categoria{"MotherBoard"}`} >
+            <button className="btn btn-secondary">MotherBoard </button>
+            </Link>
+            <Link to={ `categoria/$categoria{"Cpu"}`} >
+            <button className="btn btn-secondary">Cpu </button>
+            </Link>
+            <Link to={ `categoria/$categoria{"Tarjetas de Video"}`} >
+            <button className="btn btn-secondary">Tarjetas de Video </button>
+            </Link>
+            <Link to={ `categoria/$categoria{"Almacenamiento"}`} >
+            <button className="btn btn-secondary">Almacenamiento </button>
+            </Link>
+            <Link to={ `categoria/$categoria{"Memoria Ram"}`} >
+            <button className="btn btn-secondary">Memoria Ram </button>
+            </Link>
+            <Link to={ `categoria/$categoria{"Gabinetes"}`} >
+            <button className="btn btn-secondary">Gabinetes </button>
+            </Link>
+            <Link to={ `categoria/$categoria{"Perisfericos"}`} >
+            <button className="btn btn-secondary">Perisfericos </button>
+            </Link>
+            <Link to={ `categoria/$categoria{"Fuente de Poder"}`} >
+            <button className="btn btn-secondary">Fuente de Poder </button>
+            </Link>
+        </div>
 </div>
-<div class= "__menu"><Menu>
-    <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
-    Categorias
-    </MenuButton>
-    <MenuList>
-    <MenuItem>MotherBoard</MenuItem>
-    <MenuItem>Cpu</MenuItem>
-    <MenuItem>Tarjetas de Video</MenuItem>
-    <MenuItem>Almacenamiento</MenuItem>
-    <MenuItem>Memoria Ram</MenuItem>
-    <MenuItem>Gabinetes</MenuItem>
-    <MenuItem>Perisfericos</MenuItem>
-    <MenuItem>Fuentes De Poder</MenuItem>
-    </MenuList>
-</Menu></div>
 </>
     )
 }

@@ -1,12 +1,27 @@
+.__background__color{
+    background-color: rgb(122, 120, 120);
+
+
+}
+
+.__category{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 1rem;
+
+}
+
+
 .__alinear{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 5rem;
+
 }
 .__logo{
     display: flex;
     align-items: center;
     color: rgb(0, 0, 0);
-}
-.__search{
     margin: 1rem;
 }
