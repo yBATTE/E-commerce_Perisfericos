@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./components/NavBar"
-import ItemListContainer from "./components/ItemListContainer"
+import {ItemListContainer} from "./containers/ItemListContainer";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Cart from "./components/Cart";
 
@@ -9,9 +9,9 @@ export const App = () => {
         <BrowserRouter>
         <NavBar /> 
         <Routes>
-        <Route path="/" element = {<ItemListContainer />}></Route>
-        <Route path="/categoria/:categoria" element ={<ItemListContainer classname= "h-auto" />} />
-        <Route path='/cart' element={<Cart />}/>
+        <Route exact path='/' element={<ItemListContainer/>}/>
+        <Route exact path='/category/:category' element={<ItemListContainer/>}/>
+        <Route exact path='/cart' element={<Cart/>}></Route>
         </Routes>
         </BrowserRouter>
     )

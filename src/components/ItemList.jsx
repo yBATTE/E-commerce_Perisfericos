@@ -1,25 +1,23 @@
-import imagen from '../imagenes/Screenshot_6.jpg'
 
-const ItemList = ({ title, price, stock,image}) => {
-    
-    const num = price;
-    let formattedNum = num.toLocaleString('es-ES', { style: 'currency', currency: 'ARS' });
+import React from 'react'
+import {Item} from '../components/Item'
 
 
-    
-    return(
-        <div class="card">
-        <img src= {image}/>
-        <p>Title = {title}</p>
-        <p>Stock = {stock}</p>
-        <h6>precio = {formattedNum} </h6>
-        <button class="add-to-cart">Agregar al carrito</button>
-        </div>
-        
-    );
-}
-
-    export default ItemList;
-
-
-
+    export const ItemList = ({data}) => {
+        return (
+        <>
+        <section className=' flex flex-wrap justify-center w'>
+            {data?.map((data)=>(
+            <Item 
+                key={data.id}
+                id={data.id}
+                title={data.title}
+                price={data.price}
+                stock={data.stock}
+                image={data.image}
+            />
+            ))}
+        </section>
+        </>
+        )
+    }

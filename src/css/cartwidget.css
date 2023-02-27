@@ -7,6 +7,11 @@
 .container-cart-products{
     color: rgb(242, 242, 242);
     position: absolute;
-    margin-left: 2.4rem;
-    margin-top: 0.3rem;
+    margin-right: 2.1rem;
+    margin-top: 1.3rem;
+}
+.__carritoimg{
+    display: flex;
+    justify-content: end;
+    
 }
