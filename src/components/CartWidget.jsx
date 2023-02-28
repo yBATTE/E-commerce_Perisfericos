@@ -1,7 +1,7 @@
 
 import React from 'react'
 import '../css/cartwidget.css'
-import carrito from '../assets/833314.png'
+import carrito from '../imagenes/833314.png'
 
 
 export const CartWidget = () => {

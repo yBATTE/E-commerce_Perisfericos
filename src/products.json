@@ -4,112 +4,143 @@
         "title": "Motherboard Asus Prime A520m-a Ii Amd Ryzen Aura Rgb Pcreg",
         "price": 30599,
         "category": "MotherBoard",
-        "stock":8
+        "stock":8,
+        "image": "",
+        "description": ""
     },
     {
         "id": 2,
         "title": "Motherboard Msi A320m-a Pro Max Amd Am4 Ryzen",
         "price": 23121,
         "category": "MotherBoard",
-        "stock":5
+        "stock":5,
+        "image": "",
+        "description": ""
     },
     {
         "id": 3,
         "title": "Microprocesador Pc Amd Ryzen 5 4600g 8mb 3.7ghz Socket Am4 100-100000147box 6 Nucleos 12 Hilos",
         "price": 60499,
         "category": "Cpu",
-        "stock":9
+        "stock":9,
+        "image": "",
+        "description": ""
     },
     {
         "id": 4,
         "title": "Procesador gamer Intel Core i7-10700K BX8070110700K de 8 núcleos y 5.1GHz de frecuencia con gráfica integrada",
         "price": 129999,
         "category": "Cpu",
-        "stock":2
+        "stock":2,
+        "image": "",
+        "description": ""
     },
     {
         "id": 5,
         "title": "Placa de video Nvidia Zotac Gaming GeForce GTX 16 Series GTX 1660 SUPER ZT-T16620F-10L 6GB",
         "price": 164999,
         "category": "Tarjetas de Video",
-        "stock":1
+        "stock":1,
+        "image": "",
+        "description": ""
     },
     {
         "id": 6,
         "title": "Placa de video Nvidia Asus TUF Gaming GeForce RTX 30 Series RTX 3090 TUF-RTX3090-O24G-GAMING OC Edition 24GB",
         "price": 551926,
         "category": "Tarjetas de Video",    
-        "stock":7
+        "stock":7,
+        "image": "",
+        "description": ""
     },
     {
         "id": 7,
         "title": "Disco sólido interno Kingston SA400S37/480G 480GB negro",
         "price": 13419,
         "category": "Almacenamiento",
-        "stock":5
+        "stock":5,
+        "image": "",
+        "description": ""
     },
     {
         "id": 8,
         "title": "Disco duro interno Seagate Barracuda ST1000DM010 1TB",
         "price": 13499,
         "category": "Almacenamiento",
-        "stock":5
+        "stock":5,
+        "image": "",
+        "description": ""
     },
     {
         "id": 9,
         "title": "Memoria RAM Fury Beast DDR4 RGB color negro 8GB 1 Kingston KF432C16BBA/8",
         "price": 17644,
         "category": "Memoria Ram",
-        "stock":10
+        "stock":10,
+        "image": "",
+        "description": ""
     },
     {
         "id": 10,
         "title": "Memoria RAM Vengeance RGB Pro gamer color negro 16GB 2 Corsair CMW16GX4M2C3200C16",
         "price": 37741,
         "category": "Memoria Ram",
-        "stock":3
+        "stock":3,
+        "image": "",
+        "description": ""
     },
     {
         "id": 11,
         "title": "Gabinete Gamer Iqual Cm-2802 Vidrio Templado + 7 Coolers Rgb",
         "price": 24499,
         "category": "Gabinetes",
-        "stock":2
+        "stock":2,
+        "image": "",
+        "description": ""
     },
     {
         "id": 12,
         "title": "Gabinete Gamer Raidmax Neon G21 Led White 3 Coolers Ventana",
         "price": 25999,
         "category": "Gabinetes",
-        "stock":4
+        "stock":4,
+        "image": "",
+        "description": ""
     },
     {
         "id": 13,
         "title": "Mouse de juego Glorious Model O glossy white",
         "price": 14999,
         "category": "Perisfericos",
-        "stock":23
+        "stock":23,
+        "image":"./assets/mouse_glorius.jpg",
+        "description": ""
     },
     {
         "id": 14,
         "title": "Teclado gamer HyperX Alloy Origins Core QWERTY Red inglés US color negro con luz RGB",
         "price": 22609,
         "category": "Perisfericos",
-        "stock":40
+        "stock":40,
+        "image": "",
+        "description": ""
     },
     {
         "id": 15,
         "title": "Fuente de alimentación para PC Redragon RPGS GC-PS002 600W negra 100V/240V",
         "price": 20999,
-        "category": "Fuentes De Poder",
-        "stock":12
+        "category": "Fuente de Poder",
+        "stock":12,
+        "image": "",
+        "description": ""
     },
     {
         "id": 16,
         "title": "Fuente de alimentación para PC Evga SuperNOVA G2 1000 G2 1000W black 100V/240V",
         "price": 72190,
-        "category": "Fuentes De Poder",
+        "category": "Fuente de Poder",
         "stock": 11,
-        "image": "../imagenes/Screenshot_6.jpg"
+        "image": "./assets/fuente_de_poder_1000.jpg",
+        "description": ""
     }
 ]

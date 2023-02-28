@@ -9,6 +9,7 @@
     justify-content: space-between;
     list-style: none;
     margin: 1rem;
+    margin-top: 0;
 
 }
 
@@ -24,4 +25,11 @@
     color: rgb(0, 0, 0);
     margin: 1rem;
     margin-top: 0;
+}
+
+.__columna{
+
+    display: flex;
+    flex-direction: column;
+
 }
